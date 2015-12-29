@@ -1,0 +1,29 @@
+# How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+First of all it helps finding all changes not by hand but automatically and quickly. Moreover one can see what was added and what was removed. Thus, you don't have to find an error just by looking what you got now in the newest version. 
+
+# How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Sometimes you have already added some code to you project before later deciding to remove it. Now you realize that this snippet could still be helpful at another point. With version control and automatically stored older versions you can easily restore it and use it without starting again from zero.
+
+When after a while one realizes that some piece of code that has worked always doesn't do his job anymore, it can be extremely helpful to have older versions of the file you are working on to restore the piece that worked. Even better when you got all the changes documented and all the versions stored.
+
+# What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+When versions are automatically changed, a new version is not related to a new function or a logical change of the file. Thus, it seems better to be able to manually decide which version to save as a new one and relate new commits/versions to logical changes!
+
+# Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In software projects many times one logical change includes the adaption of several files not just one. Thus it seems more appropriate to save multiple files in one commit. When writing an essay or summary or building on some slides ususally one works with one single file. Git was developed for software projects while Google Docs is widely used for one file projects!
+
+# How can you use the commands git log and git diff to view the history of files?
+
+Using git log I can view the whole history of my repository documenting all the changes/commits I did. If I gave meaningful messages to my commits I can search for specific changes by that message. Having found the commit I was looking for with git diff it is very easy to see what changes I did in that commit. 
+
+# How might using version control make you more confident to make changes that could break something?
+
+I can more or less easily find the error breaking something and correct it or restore the older version.
+
+# Now that you have your workspace set up, what do you want to try using Git for? 
+
+I would love to use github for preparing some examples for the little R sessions I give for friends and colleagues.
