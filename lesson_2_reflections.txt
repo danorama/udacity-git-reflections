@@ -5,3 +5,19 @@ When initializing a new repo you ask git to start keeping track of the current f
 # How is the staging area different from the working directory and the repository? What value do you think it offers? How can you use the staging area to make sure you have one commit per logical change?
 
 The staging are is inbetween my working directory and the repo. And that's a pretty good idea since I can add multiple files from different locations to the staging area first before transfering them with one logical commit to the repo. 
+
+# What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When trying out a new (experimental) feature or working on a different version of a specific project it might be cool to keep the original project and continue with a copy or parallel version of the project. This can be done in git with branches. 
+
+# How do the diagrams help you visualize the branch structure?
+
+Diagrams help me, because one can easily see which commits are part of (reachable) by a certain branch and which are not.
+
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When merging two brands together the commits of both brands are reachable within one brand (e.g. the master branch). If someone developed a specific new feature for a project in an additional branch while another developer continued fixing bugs in the original branch, merging brings the new feature back together with the master branch.
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git is pretty intelligent when it comes to merging and automatically merges all changes independent from each other. When it comes to conflicts, that means different versions of the same piece of code, Git simply let's the users decide what to do. And that seems to be the best way. Of course it would be nice if Git would automatically knew which conflict should be resolved in what manner. But this simply seems to be pretty hard to say or to decide with an algorithm. Thus, asking is the best solution.
