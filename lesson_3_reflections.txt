@@ -3,3 +3,7 @@
 First of all keeping a remote repo is like having a secure backup on GitHub. It is always a great idea to have a backup :). 
 Secondly, maybe I use a different computer tomorrow or wanna do some changes from my mobile phone while running in the park. Than GitHub seems to be much closer than my local repo.
 Last but not least, there are several projects I won't like to work on alone but with my friends. GutHub is a perfect place to keep our shared projects on.
+
+# Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+On GitHub I might want to have only working features or at least a more stable version of my project. Thus, manually deciding when to commit what or to sync the repo seems to be a better idea than just automatically syncing all files and crashing every ten minutes the code.
