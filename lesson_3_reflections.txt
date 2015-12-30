@@ -15,3 +15,7 @@ A fork is just a copy of a foreign github repo to ones own repos on GitHub. A cl
 # What is the benefit of having a copy of the last known state of the remote stored locally?
 
 I ususally prefer working locally. And I want to work with the newest version if possible!
+
+# How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+In very small teams it would probably also be possible to collaborate on bigger projects without using a system like Git and a remote storage like github. Especially when working together in the same room. Nevertheless, when it comes to bigger teams and longer distances, to me it seems very difficult to work on the same files together without something like Git(hub). Maybe if there is a project manager deciding very specifically what the others should do in which way. Oh.. sounds like in many companies :).
