@@ -2,6 +2,6 @@
 
 When initializing a new repo you ask git to start keeping track of the current folder and the files in it. A hidden .git folder is created where from now on git logs all changes one makes. Before git init the folder you have is not tracked by git. Changes cannot be undone or inspected without git having an eye on the folder.
 
-# How is the staging area different from the working directory and the repository? What value do you think it offers?
+# How is the staging area different from the working directory and the repository? What value do you think it offers? How can you use the staging area to make sure you have one commit per logical change?
 
 The staging are is inbetween my working directory and the repo. And that's a pretty good idea since I can add multiple files from different locations to the staging area first before transfering them with one logical commit to the repo. 
