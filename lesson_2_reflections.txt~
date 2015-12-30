@@ -1,3 +1,0 @@
-# What happens when you initialize a repository? Why do you need to do it?
-
-When initializing a new repo you ask git to start keeping track of the current folder and the files in it. A hidden .git folder is created where from now on git logs all changes one makes. Before git init the folder you have is not tracked by git. Changes cannot be undone or inspected without git having an eye on the folder.
