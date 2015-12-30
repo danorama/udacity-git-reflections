@@ -19,3 +19,7 @@ I ususally prefer working locally. And I want to work with the newest version if
 # How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 In very small teams it would probably also be possible to collaborate on bigger projects without using a system like Git and a remote storage like github. Especially when working together in the same room. Nevertheless, when it comes to bigger teams and longer distances, to me it seems very difficult to work on the same files together without something like Git(hub). Maybe if there is a project manager deciding very specifically what the others should do in which way. Oh.. sounds like in many companies :).
+
+# When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would make changes in a seperate branch either when I start a new epic or project and I want to have a overview about what commits belong to which project or when I want to add features to someone else repo. He probably doesn't want to include everything I do. Thus, it is better to structure my requests with branches.
