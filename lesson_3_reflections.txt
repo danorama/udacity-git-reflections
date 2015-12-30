@@ -1,0 +1,5 @@
+# When would you want to use a remote repository rather than keeping all your work local?
+
+First of all keeping a remote repo is like having a secure backup on GitHub. It is always a great idea to have a backup :). 
+Secondly, maybe I use a different computer tomorrow or wanna do some changes from my mobile phone while running in the park. Than GitHub seems to be much closer than my local repo.
+Last but not least, there are several projects I won't like to work on alone but with my friends. GutHub is a perfect place to keep our shared projects on.
